@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <title>{% block title %}{% endblock %}</title>
+    </head>
+    <body>
+        <h1>Adam's Website</h1>
+        {% block content %}
+        {% endblock %}
+        <!-- <h1>Home Page!</h1>
+        <p>Hello!</p>
+        <h2>{{content}}</h2>
+        <p>{{r}}</p>
+        <h3>
+            {% for x in range(10)%}
+                {% if x%2 == 1 %}
+                    <p>Hello Odd! {{x}}</p>
+                {% else %}
+                    <p>Hello Even! {{x}}</p>
+                {% endif %}
+            {% endfor %}
+        </h3> -->
+    </body>
+</html>
